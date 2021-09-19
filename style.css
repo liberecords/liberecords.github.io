@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("img/bg3.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position-y: bottom;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+    color: white !important;
+    box-sizing: border-box !important;
+}
+
+h1 {
+    font-family: 'Cousine', monospace !important;
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 0 5px 5px black;
+}
+
+h2 {
+    font-family: 'Cousine', monospace !important;
+}
+
+.card-artist {
+    background: black;
+    border-radius: 200px !important;
+    padding: 10px;
+}
+
+.card{
+    background: black;
+    border: 2px solid black;
+}
+
+.card-title {
+    font-family: 'Cousine', monospace !important;
+    text-align: center !important;
+}
+
+.card-img-artist {
+    border-radius: 200px !important;
+}
+
+.navbar-brand {
+    font-family: 'Cousine', monospace !important;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 15px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    user-select: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #000 !important;
+    z-index: 100;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+.navbar-toggler {
+    border-color: white !important
+}
+
+a.anchor {
+    position: absolute;
+    margin-top: -85px !important;
+}
+
+.dropdown * {
+    background: black !important;
+    color: white !important;
+}
+
+.dropdown * {
+    background: black !important;
+    color: white !important;
+}
+
+.modal-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 45px;
+}
+
+.modal-header {
+    border-bottom: none;
+    box-shadow: 0 7px 7px #111;
+    z-index: 100;
+}
+
+.modal-footer {
+    border-top: none;
+    box-shadow: 0 -7px 7px #111;
+    z-index: 100;
+}
+
+@media screen and (max-width: 1125px) {
+    .search-btn {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar-brand {
+        font-size: 40px !important;
+    }
+
+    a.anchor {
+        position: absolute;
+        margin-top: -69px !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar-brand {
+        font-size: 30px !important;
+    }
+
+    a.anchor {
+        position: absolute;
+        margin-top: -55px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+}
