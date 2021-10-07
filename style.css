@@ -109,6 +109,14 @@ a.anchor {
     z-index: 100;
 }
 
+div.dropdown-multicol{
+    width: 20em;
+}
+div.dropdown-multicol>div.dropdown-col{
+    display:inline-block;
+    width: 49%;
+}
+
 @media screen and (max-width: 1125px) {
     .search-btn {
         display: none !important;
